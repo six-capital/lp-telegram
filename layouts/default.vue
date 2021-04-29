@@ -1,10 +1,6 @@
 <template>
   <v-app light>
-    <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-main>
+    <nuxt />
   </v-app>
 </template>
 
@@ -16,3 +12,7 @@ export default {
   }
 }
 </script>
+
+<style>
+  *{scroll-behavior: smooth !important;}
+</style>

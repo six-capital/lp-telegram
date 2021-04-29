@@ -27,6 +27,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {src: '~plugins/vue-the-mask'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -58,10 +59,16 @@ export default {
           accent: '#435971',
           secondary: '#0a233f',
           info: colors.teal.lighten1,
-          warning: colors.amber.base,
+          warning: "#ff3918",
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
         }
+      }
+    },
+    treeShake: true,
+    defaultAssets: {
+      font: {
+        family: 'Montserrat'
       }
     }
   },
