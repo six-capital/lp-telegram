@@ -55,7 +55,7 @@ export default {
   data(){
     return{
       banner:{
-        title: 'Faça uma renda extra <span class="white secondary--text">&nbsp;todos os dias&nbsp;</span> com a <nobr>XPTO</nobr>',
+        title: 'Faça uma renda extra <span class="white secondary--text">&nbsp;todos os dias&nbsp;</span> com a <nobr>X-GREEN</nobr>',
         subtitle: 'Receba diariamente análises do mercado esportivo no seu celular.'
       }
     }

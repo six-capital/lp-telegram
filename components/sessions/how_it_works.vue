@@ -11,7 +11,7 @@
           class="pa-4"
         >
           <h2 :class="$vuetify.breakpoint.xs ? 'display-1' : 'display-2'" class="text-sm-display-1 primary--text titulo_adapt font-weight-bold mb-4 mt-0 text-uppercase">
-            Como funciona <nobr>a XPTO</nobr>
+            Como funciona <nobr>a X-GREEN</nobr>
           </h2>
           <p class="white--text">
             Apenas copie e cole nossos sinais e lucre em poucos passos.
@@ -28,7 +28,7 @@
           sm="6"
           class="pa-4"
         >
-          <div class="ma-0 pa-0 d-sm-flex">
+          <div class="ma-0 pr-4 d-sm-flex">
             <div class="pa-0 central_divider d-none d-sm-flex"></div>
             <div class="ma-0 pa-0 w-100">
               <v-list class="transparent" subheader>

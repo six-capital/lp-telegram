@@ -13,7 +13,7 @@
             cols="12"
             class="d-flex align-center"
         >
-          <img class="main_logo" src="/logos/project_logo/xpto.png" alt="logo">
+          <img class="main_logo" src="/logos/x-green_logo/x-green.svg" alt="X-GREEN">
         </v-col>
       </v-row>
     </v-container>

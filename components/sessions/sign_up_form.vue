@@ -156,19 +156,19 @@ export default {
     },
     async send() {
       this.loading = true;
-      await this.$axios.$post('xpto/contact',{
+      await this.$axios.$post('x-green/contact',{
           name: this.name,
           email: this.email,
           telephone: this.telephone,
           message: null,
-          origin: "LEAD_TELEGRAM_lp_xpto",
+          origin: "LEAD_TELEGRAM_lp_x-green",
           notify_email: null
         }
       )
         .then(response => {
           console.log('Lead cadastrado!');
           console.log(response);
-          window.location.href = "https://t.me/group";
+          window.location.href = "https://t.me/grupofreeXGREEN";
         })
         .catch(response => {
           this.loading = false;

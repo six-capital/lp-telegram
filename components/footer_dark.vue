@@ -13,7 +13,7 @@
           cols="5"
           class="d-flex align-center"
         >
-          <img class="footer_logo" src="/logos/project_logo/xpto.png" alt="logo">
+          <img class="main_logo" src="/logos/x-green_logo/x-green.svg" alt="X-GREEN">
         </v-col>
         <v-col
           lg="6"
@@ -32,7 +32,7 @@
                 text
                 icon
                 color="primary"
-                @click="go_to('https://www.instagram.com')"
+                @click="go_to('https://www.instagram.com/xgreensports')"
               >
                 <img
                   alt="Instagram"
@@ -44,7 +44,7 @@
                 text
                 icon
                 color="primary"
-                @click="go_to('https://www.facebook.com')"
+                @click="go_to('https://www.facebook.com/xgreensports')"
               >
                 <img
                   alt="Facebook"
@@ -56,7 +56,7 @@
                 text
                 icon
                 color="primary"
-                @click="go_to('https://twitter.com')"
+                @click="go_to('https://twitter.com/xgreensports')"
               >
                 <img
                   alt="Twitter"
