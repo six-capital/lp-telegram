@@ -21,7 +21,7 @@
             sm="5"
             class="d-none d-sm-flex pl-sm-5 pl-md-16"
           >
-            <v-parallax height="460" class="telephone-telegram" src="/images/mockup_celular_telegram.png" alt="Grupo Free do Telegram"></v-parallax>
+            <img :style="'margin-top: -'+( windowTop + 80 )+'px;'" class="telephone-telegram" src="/images/mockup_celular_telegram.png" alt="Grupo Free do Telegram">
           </v-col>
         </v-row>
       </v-container>
@@ -57,7 +57,19 @@ export default {
       banner:{
         title: 'Faça uma renda extra <span class="white secondary--text">&nbsp;todos os dias&nbsp;</span> com a <nobr>X-GREEN</nobr>',
         subtitle: 'Receba diariamente análises do mercado esportivo no seu celular.'
-      }
+      },
+      windowTop: 0
+    }
+  },
+  mounted(){
+    window.addEventListener("scroll", this.onScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll);
+  },
+  methods: {
+    onScroll(e) {
+      this.windowTop = e.target.documentElement.scrollTop;
     }
   }
 }
@@ -74,7 +86,6 @@ export default {
   overflow: visible !important;
   width: 100%;
   max-width: 230px;
-  margin-top: -150px;
   z-index: 5 !important;
 }
 .telephone-telegram div{
