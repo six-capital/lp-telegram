@@ -1,6 +1,6 @@
 # Landing Page: Join our Telegram chanel
 
-![Print Screen](https://github.com/7br-uno/lp-telegram/blob/master/static/images/printscreen.png?raw=true)
+![Print Screen](https://github.com/six-capital/lp-telegram/blob/master/static/images/printscreen.png?raw=true)
 
 ## Build Setup
 
