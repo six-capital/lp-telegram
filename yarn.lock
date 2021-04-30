@@ -7745,6 +7745,11 @@
   "resolved" "https://registry.npmjs.org/vue-client-only/-/vue-client-only-2.0.0.tgz"
   "version" "2.0.0"
 
+"vue-gtag@^1.14.0":
+  "integrity" "sha512-jutSxDedzckzPxOV1dOfV3rWqlfw5uzXOGGxDiOiq5o1UiGerpCOP4uWlO7CfwmujJotMaxgo0xR/TXsc2TLqA=="
+  "resolved" "https://registry.npmjs.org/vue-gtag/-/vue-gtag-1.14.0.tgz"
+  "version" "1.14.0"
+
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
   "resolved" "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
