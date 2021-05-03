@@ -168,7 +168,9 @@ export default {
         .then(response => {
           console.log('Lead cadastrado!');
           console.log(response);
-          window.location.href = "https://t.me/grupofreeXGREEN";
+          this.track().then(() => {
+            window.location.href = "https://t.me/grupofreeXGREEN";
+          })
         })
         .catch(response => {
           this.loading = false;
@@ -176,6 +178,12 @@ export default {
           console.log('Erro!');
           console.log(response);
         });
+    },
+    async track() {
+      await this.$gtag.event('Formulário Telegram', {
+        'event_category': 'Enviar formulário de lead',
+        'value': '1'
+      })
     }
   }
 }
