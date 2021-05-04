@@ -78,7 +78,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/gtm'
   ],
+
+  gtm: {
+    id: 'GTM-KZZ4Q4H',
+    enabled: true
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

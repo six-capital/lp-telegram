@@ -66,6 +66,7 @@
               <v-btn
                 large
                 color="warning"
+                id="submit_telegram_form"
                 dark
                 class="mt-3 mb-10 w-70 rounded-lg"
                 @click="process()"
@@ -180,7 +181,8 @@ export default {
         });
     },
     async track() {
-      await this.$gtag.event('Formulário Telegram', {
+      await this.$gtag.event('Submit Form Sign Up', {
+        'event_label': 'Gs0jCOGluIwCEJCqrLUB',
         'event_category': 'Enviar formulário de lead',
         'value': '1'
       })
