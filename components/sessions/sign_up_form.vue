@@ -17,7 +17,7 @@
             O Grupo Free do Telegram que está dominando o mercado de investimentos esportivos.
           </p>
           <p class="white--text text-center">
-            Nossos jogos são separados pelo nosso robo e nossos analistas enviam todos os dias as análises para você lucrar muito!
+            Nossos jogos são separados pelo nosso robô e nossos analistas enviam todos os dias as análises para você lucrar muito!
           </p>
           <p class="white--text text-center">
             Apenas copie, cole e fature com poucos cliques, de forma simples e fácil.

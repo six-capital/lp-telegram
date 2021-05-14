@@ -26,7 +26,7 @@
         <v-col
           cols="12"
           sm="6"
-          class="pa-4"
+          class="pa-sm-4"
         >
           <div class="ma-0 pr-4 d-sm-flex">
             <div class="pa-0 central_divider d-none d-sm-flex"></div>
@@ -88,7 +88,7 @@ export default {
       { divider: true, inset: true },
       {
         avatar: '/images/numbers/04.png',
-        title: 'Não perca tempo analisando as partidas',
+        title: 'Não perca tempo analisando partidas',
       },
       { divider: true, inset: true },
       {
@@ -110,5 +110,10 @@ export default {
 }
 .w-100{
   width: 100%;
+}
+@media only screen and (max-width: 450px) {
+  .v-list-item__title{
+    font-size: .8rem !important;
+  }
 }
 </style>
