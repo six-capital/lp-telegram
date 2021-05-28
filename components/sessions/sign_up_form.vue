@@ -160,7 +160,7 @@ export default {
       await this.$axios.$post('x-green/contact',{
           name: this.name,
           email: this.email,
-          telephone: this.telephone,
+          telephone: '55' + this.telephone.replace(/\D/g, ''),
           message: null,
           origin: "LEAD_TELEGRAM_lp_x-green",
           notify_email: null
